@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Raven.Deploy": {
+      "commandName": "Project",
+      "commandLineArgs": "http://live-test.ravendb.net state.yaml",
+      "workingDirectory": "C:\\Users\\Oren\\source\\repos\\Raven.Deploy\\Raven.Deploy\\"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+Databases: 
+ Northwind: 
+  Disabled: false
+  Settings:
+    Hi: There
+    Age: 5
+  DocumentsCompression:
+    CompressAllCollections: true
+    CompressRevisions: true
+  Indexes:
+   Test:
+    Maps:
+     - "from u in docs.Users select new { u.Name }"
